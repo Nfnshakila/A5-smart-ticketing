@@ -240,9 +240,9 @@
                     <p>Price</p>
                 </div>
                 <hr>
-                <div class="flex justify-between">
-                    <span id="seat-name"></span>
-                    <p>Economoy</p>
+                <div>
+                    <span onclick="backgroundAdd()" id="seat-name"></span>
+                    <p></p>
                     <span id="per-seat-price"></span>
                                 
                 </div>
@@ -252,14 +252,14 @@
                     <p>BDT <span id="total-cost">0</span></p>
                 </div>
                 <div class="flex bg-white justify-between rounded-md">
-                    <input type="text" class="bg-white rounded-md p-3" placeholder="Have any coupon?">
-                    <button class="bg-green-500 p-2 rounded-lg text-white">Apply</button>
+                    <input type="text" class="bg-white rounded-md p-3 coupon-field" placeholder="Have any coupon?">
+                    <button onclick="applyCoupon()" class="bg-green-500 p-2 rounded-lg text-white">Apply</button>
 
 
             </div>
             <div class="flex justify-between">
                 <h4>Grand Total</h4>
-                <p>BDT <span>0</span></p>
+                <p>BDT <span id="grand-total">0</span></p>
             </div>
 
 

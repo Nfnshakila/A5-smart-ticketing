@@ -6,7 +6,6 @@ function buy(){
 
 
 const seats = document.getElementsByClassName('kbd');
-// console.log(seats) 
 let count = 0;
 let perSeatPrice = 550;
 let seatsLeft = 40;
@@ -72,8 +71,6 @@ if (userInputCoupon.toLowerCase() == "Couple 20"){
 function success(){
     const totalBody = document.getElementById('total-body')
     totalBody.classList.add('hidden')
-    // const getTicket = document.getElementById('success')
-    // console.log(getTicket)
     const ticket = document.getElementById('booking-done')
     ticket.classList.remove('hidden');
 
